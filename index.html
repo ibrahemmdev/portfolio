@@ -1,206 +1,1163 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1"
+  />
+
   <title>Ibrahim Mohamed | Fullstack Engineer</title>
-  <meta name="description" content="Ibrahim Mohamed, Fullstack Engineer building backend systems, LMS, SaaS and CMS platforms." />
-  <meta name="color-scheme" content="light" />
- 
+
+  <meta
+    name="description"
+    content="Ibrahim Mohamed, Fullstack Engineer building backend systems, LMS, SaaS and CMS platforms."
+  />
+
+  <meta
+    name="color-scheme"
+    content="light"
+  />
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
- 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
- 
-  <link rel="stylesheet" href="styles.css" />
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- Devicon -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css"
+  />
+
+  <!-- Main CSS -->
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  />
 </head>
+
+
 <body>
-  <div class="progress" id="progress"></div>
- 
+
+  <!-- ========================================
+       SCROLL PROGRESS
+  ========================================= -->
+
+  <div
+    class="progress"
+    id="progress"
+  ></div>
+
+
+  <!-- ========================================
+       NAVIGATION
+  ========================================= -->
+
   <header class="nav">
-    <a href="#home" class="brand">Ibrahim Mohamed</a>
-    <nav class="nav-links" aria-label="Main">
-      <a href="#about">About</a>
-      <a href="#build">What I build</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+
+    <a
+      href="#home"
+      class="brand"
+    >
+      Ibrahim Mohamed
+    </a>
+
+    <nav
+      class="nav-links"
+      aria-label="Main navigation"
+    >
+
+      <a href="#about">
+        About
+      </a>
+
+      <a href="#build">
+        What I build
+      </a>
+
+      <a href="#skills">
+        Skills
+      </a>
+
+      <a href="#projects">
+        Projects
+      </a>
+
+      <a href="#contact">
+        Contact
+      </a>
+
     </nav>
+
   </header>
- 
+
+
+  <!-- ========================================
+       MAIN
+  ========================================= -->
+
   <main>
-    <!-- HERO -->
-    <section class="hero" id="home">
+
+
+    <!-- ========================================
+         HERO
+    ========================================= -->
+
+    <section
+      class="hero"
+      id="home"
+    >
+
       <div class="hero-text">
-        <p class="hello" data-hero>Hello, I'm</p>
-        <h1 data-hero>Ibrahim<br />Mohamed</h1>
-        <p class="role" data-hero>Fullstack Engineer</p>
-        <p class="lead" data-hero>
-          I build backend systems, learning management systems (LMS), SaaS products and content management systems (CMS) that stay fast and reliable under real traffic.
+
+        <p
+          class="hello"
+          data-hero
+        >
+          Hello, I'm
         </p>
-        <div class="actions" data-hero>
-          <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-briefcase"></i> View my projects</a>
-          <a class="btn btn-soft" href="mailto:ibrahem.m.dev@gmail.com"><i class="fa-solid fa-envelope"></i> Email me</a>
+
+
+        <h1 data-hero>
+          Ibrahim<br />
+          Mohamed
+        </h1>
+
+
+        <p
+          class="role"
+          data-hero
+        >
+          Fullstack Engineer
+        </p>
+
+
+        <p
+          class="lead"
+          data-hero
+        >
+          I build backend systems, learning management systems
+          (LMS), SaaS products and content management systems
+          (CMS) that stay fast and reliable under real traffic.
+        </p>
+
+
+        <div
+          class="actions"
+          data-hero
+        >
+
+          <a
+            class="btn btn-primary"
+            href="#projects"
+          >
+            <i class="fa-solid fa-briefcase"></i>
+            View my projects
+          </a>
+
+
+          <a
+            class="btn btn-soft"
+            href="mailto:ibrahem.m.dev@gmail.com"
+          >
+            <i class="fa-solid fa-envelope"></i>
+            Email me
+          </a>
+
         </div>
+
       </div>
- 
-      <div class="hero-card" data-hero>
+
+
+      <!-- Hero Card -->
+
+      <div
+        class="hero-card"
+        data-hero
+      >
+
         <div class="stat">
+
           <i class="fa-solid fa-code"></i>
-          <div><strong>2 years</strong><span>Professional experience</span></div>
-        </div>
-        <div class="stat">
-          <i class="fa-solid fa-people-group"></i>
-          <div><strong>Head of Operations</strong><span>ICPC Zagazig Community</span></div>
-        </div>
-      </div>
-    </section>
- 
-    <!-- ABOUT -->
-    <section class="section" id="about">
-      <h2 class="title" data-reveal>About me</h2>
-      <div class="about-grid">
-        <p class="about-text" data-reveal>
-          I'm a Fullstack Engineer with 2 years of experience. I enjoy backend work most: designing APIs, modeling data, and keeping systems stable under load. I build the platforms that other people's work runs on, from course platforms and SaaS products to content systems and e-commerce.
-        </p>
-      </div>
-    </section>
- 
-    <!-- WHAT I BUILD -->
-    <section class="section" id="build">
-      <h2 class="title" data-reveal>What I build</h2>
-      <div class="build-grid">
-        <article class="card" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-server"></i></div>
-          <h3>Backend systems</h3>
-          <p class="muted">REST APIs, authentication, databases and integrations built to stay fast and stable under load.</p>
-        </article>
-        <article class="card" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
-          <h3>LMS</h3>
-          <p class="muted">Learning platforms where instructors publish courses and students enroll and track their progress.</p>
-        </article>
-        <article class="card" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-cloud"></i></div>
-          <h3>SaaS products</h3>
-          <p class="muted">Multi-user web products with accounts, subscriptions and the backend that keeps them running.</p>
-        </article>
-        <article class="card" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-newspaper"></i></div>
-          <h3>CMS</h3>
-          <p class="muted">Content systems that let teams create, edit and publish without touching code.</p>
-        </article>
-      </div>
-    </section>
- 
-    <!-- SKILLS -->
-    <section class="section" id="skills">
-      <h2 class="title" data-reveal>Skills</h2>
-      <ul class="skills">
-        <li data-reveal><i class="devicon-html5-plain colored"></i><span>HTML</span></li>
-        <li data-reveal><i class="devicon-css3-plain colored"></i><span>CSS</span></li>
-        <li data-reveal><i class="devicon-javascript-plain colored"></i><span>JavaScript</span></li>
-        <li data-reveal><i class="devicon-nodejs-plain colored"></i><span>Node.js</span></li>
-        <li data-reveal><i class="devicon-mysql-plain colored"></i><span>MySQL</span></li>
-        <li data-reveal><i class="devicon-mongodb-plain colored"></i><span>MongoDB</span></li>
-        <li data-reveal>
-          <img src="https://cdn.simpleicons.org/mongoose/880000" alt="" width="40" height="40"
-               onerror="this.outerHTML='<i class=&quot;fa-solid fa-database&quot;></i>'" />
-          <span>Mongoose</span>
-        </li>
-        <li data-reveal><i class="fa-brands fa-discord" style="color:#5865F2"></i><span>discord.js</span></li>
-        <li data-reveal><i class="devicon-cplusplus-plain colored"></i><span>C++</span></li>
-      </ul>
-    </section>
- 
-    <!-- PROJECTS -->
-    <section class="section" id="projects">
-      <h2 class="title" data-reveal>Projects</h2>
- 
-      <article class="project featured" data-reveal>
-        <div class="project-head">
-          <div class="card-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+
           <div>
-            <h3>Moha's Shop</h3>
-            <p class="muted">E-commerce platform built for high transaction volumes</p>
+
+            <strong>
+              2 years
+            </strong>
+
+            <span>
+              Professional experience
+            </span>
+
           </div>
+
         </div>
- 
+
+
+        <div class="stat">
+
+          <i class="fa-solid fa-people-group"></i>
+
+          <div>
+
+            <strong>
+              Head of Operations
+            </strong>
+
+            <span>
+              ICPC Zagazig Community
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         ABOUT
+    ========================================= -->
+
+    <section
+      class="section"
+      id="about"
+    >
+
+      <h2
+        class="title"
+        data-reveal
+      >
+        About me
+      </h2>
+
+
+      <div class="about-grid">
+
+        <p
+          class="about-text"
+          data-reveal
+        >
+          I'm a Fullstack Engineer with 2 years of experience.
+          I enjoy backend work most: designing APIs, modeling
+          data, and keeping systems stable under load. I build
+          the platforms that other people's work runs on, from
+          course platforms and SaaS products to content systems
+          and e-commerce.
+        </p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         WHAT I BUILD
+    ========================================= -->
+
+    <section
+      class="section"
+      id="build"
+    >
+
+      <h2
+        class="title"
+        data-reveal
+      >
+        What I build
+      </h2>
+
+
+      <div class="build-grid">
+
+
+        <!-- Backend Systems -->
+
+        <article
+          class="card"
+          data-reveal
+        >
+
+          <div class="card-icon">
+            <i class="fa-solid fa-server"></i>
+          </div>
+
+          <h3>
+            Backend systems
+          </h3>
+
+          <p class="muted">
+            REST APIs, authentication, databases and integrations
+            built to stay fast and stable under load.
+          </p>
+
+        </article>
+
+
+        <!-- LMS -->
+
+        <article
+          class="card"
+          data-reveal
+        >
+
+          <div class="card-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+
+          <h3>
+            LMS
+          </h3>
+
+          <p class="muted">
+            Learning platforms where instructors publish courses
+            and students enroll and track their progress.
+          </p>
+
+        </article>
+
+
+        <!-- SaaS -->
+
+        <article
+          class="card"
+          data-reveal
+        >
+
+          <div class="card-icon">
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+
+          <h3>
+            SaaS products
+          </h3>
+
+          <p class="muted">
+            Multi-user web products with accounts, subscriptions
+            and the backend that keeps them running.
+          </p>
+
+        </article>
+
+
+        <!-- CMS -->
+
+        <article
+          class="card"
+          data-reveal
+        >
+
+          <div class="card-icon">
+            <i class="fa-solid fa-newspaper"></i>
+          </div>
+
+          <h3>
+            CMS
+          </h3>
+
+          <p class="muted">
+            Content systems that let teams create, edit and
+            publish without touching code.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         SKILLS
+    ========================================= -->
+
+    <section
+      class="section"
+      id="skills"
+    >
+
+      <h2
+        class="title"
+        data-reveal
+      >
+        Skills
+      </h2>
+
+
+      <ul class="skills">
+
+
+        <li data-reveal>
+
+          <i class="devicon-html5-plain colored"></i>
+
+          <span>
+            HTML
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-css3-plain colored"></i>
+
+          <span>
+            CSS
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-javascript-plain colored"></i>
+
+          <span>
+            JavaScript
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-nodejs-plain colored"></i>
+
+          <span>
+            Node.js
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-mysql-plain colored"></i>
+
+          <span>
+            MySQL
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-mongodb-plain colored"></i>
+
+          <span>
+            MongoDB
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <img
+            src="https://cdn.simpleicons.org/mongoose/880000"
+            alt=""
+            width="40"
+            height="40"
+            onerror="this.outerHTML='<i class=&quot;fa-solid fa-database&quot;></i>'"
+          />
+
+          <span>
+            Mongoose
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i
+            class="fa-brands fa-discord"
+            style="color:#5865F2"
+          ></i>
+
+          <span>
+            discord.js
+          </span>
+
+        </li>
+
+
+        <li data-reveal>
+
+          <i class="devicon-cplusplus-plain colored"></i>
+
+          <span>
+            C++
+          </span>
+
+        </li>
+
+      </ul>
+
+    </section>
+
+
+
+    <!-- ========================================
+         PROJECTS
+    ========================================= -->
+
+    <section
+      class="section"
+      id="projects"
+    >
+
+      <h2
+        class="title"
+        data-reveal
+      >
+        Projects
+      </h2>
+
+
+
+      <!-- ======================================
+           FEATURED PROJECT
+      ======================================= -->
+
+      <article
+        class="project featured"
+        data-reveal
+      >
+
+
+        <!-- Project Header -->
+
+        <div class="project-head">
+
+          <div class="card-icon">
+
+            <i class="fa-solid fa-cart-shopping"></i>
+
+          </div>
+
+
+          <div>
+
+            <h3>
+              Moha's Shop
+            </h3>
+
+            <p class="muted">
+              E-commerce platform built for high transaction volumes
+            </p>
+
+          </div>
+
+        </div>
+
+
+
+        <!-- ====================================
+             MOHA'S SHOP GALLERY
+        ===================================== -->
+
+        <div
+          class="project-gallery"
+          tabindex="0"
+          aria-label="Moha's Shop project gallery"
+        >
+
+
+          <!-- Image 1 -->
+
+          <img
+            class="gallery-image active"
+            src="images/mohashop-1.png"
+            alt="Moha's Shop homepage"
+          />
+
+
+          <!-- Image 2 -->
+
+          <img
+            class="gallery-image"
+            src="images/mohashop-2.png"
+            alt="Moha's Shop products"
+          />
+
+
+          <!-- Image 3 -->
+
+          <img
+            class="gallery-image"
+            src="images/mohashop-3.png"
+            alt="Moha's Shop checkout"
+          />
+
+
+          <!-- Image 4 -->
+
+          <img
+            class="gallery-image"
+            src="images/mohashop-4.png"
+            alt="Moha's Shop payment"
+          />
+
+
+          <!-- Previous -->
+
+          <button
+            class="gallery-button gallery-prev"
+            type="button"
+            aria-label="Previous image"
+          >
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+
+          <!-- Next -->
+
+          <button
+            class="gallery-button gallery-next"
+            type="button"
+            aria-label="Next image"
+          >
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+
+
+          <!-- Dots -->
+
+          <div class="gallery-dots"></div>
+
+        </div>
+
+
+
+        <!-- Project Points -->
+
         <ul class="points">
-          <li><i class="fa-solid fa-circle-check"></i> High-performance backend with Node.js (Express) and MongoDB that holds up during peak traffic</li>
-          <li><i class="fa-solid fa-circle-check"></i> Redesigned user experience that led to a record $20,000 in revenue in one month</li>
-          <li><i class="fa-solid fa-circle-check"></i> Better stability and faster API responses for thousands of users at critical times</li>
-          <li><i class="fa-solid fa-circle-check"></i> Multi-language support</li>
-          <li><i class="fa-solid fa-circle-check"></i> Multi-currency based on location, updated daily</li>
+
+          <li>
+            <i class="fa-solid fa-circle-check"></i>
+
+            High-performance backend with Node.js (Express)
+            and MongoDB that holds up during peak traffic
+          </li>
+
+
+          <li>
+            <i class="fa-solid fa-circle-check"></i>
+
+            Redesigned user experience that led to a record
+            $20,000 in revenue in one month
+          </li>
+
+
+          <li>
+            <i class="fa-solid fa-circle-check"></i>
+
+            Better stability and faster API responses for
+            thousands of users at critical times
+          </li>
+
+
+          <li>
+            <i class="fa-solid fa-circle-check"></i>
+
+            Multi-language support
+          </li>
+
+
+          <li>
+            <i class="fa-solid fa-circle-check"></i>
+
+            Multi-currency based on location, updated daily
+          </li>
+
         </ul>
- 
+
+
+
+        <!-- Project Tags -->
+
         <div class="tags">
-          <span><i class="fa-solid fa-cart-shopping"></i> Cart &amp; Checkout</span>
-          <span><i class="fa-solid fa-credit-card"></i> Payment integration</span>
-          <span><i class="fa-solid fa-envelope-circle-check"></i> Email automation</span>
-          <span><i class="fa-solid fa-ticket"></i> Promo codes</span>
-          <span><i class="fa-solid fa-cart-arrow-down"></i> Abandoned cart</span>
-          <span><i class="fa-solid fa-plug"></i> REST APIs</span>
-          <span><i class="fa-brands fa-discord"></i> Discord notifications</span>
+
+          <span>
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart &amp; Checkout
+          </span>
+
+
+          <span>
+            <i class="fa-solid fa-credit-card"></i>
+            Payment integration
+          </span>
+
+
+          <span>
+            <i class="fa-solid fa-envelope-circle-check"></i>
+            Email automation
+          </span>
+
+
+          <span>
+            <i class="fa-solid fa-ticket"></i>
+            Promo codes
+          </span>
+
+
+          <span>
+            <i class="fa-solid fa-cart-arrow-down"></i>
+            Abandoned cart
+          </span>
+
+
+          <span>
+            <i class="fa-solid fa-plug"></i>
+            REST APIs
+          </span>
+
+
+          <span>
+            <i class="fa-brands fa-discord"></i>
+            Discord notifications
+          </span>
+
         </div>
- 
-        <a class="btn btn-primary" href="https://mohashop.net" target="_blank" rel="noopener">
-          <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit mohashop.net
+
+
+
+        <!-- Visit Project -->
+
+        <a
+          class="btn btn-primary"
+          href="https://mohashop.net"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+          Visit mohashop.net
+
         </a>
+
       </article>
- 
+
+
+
+      <!-- ======================================
+           OTHER PROJECTS
+      ======================================= -->
+
       <div class="project-grid">
-        <article class="project" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-shield-halved"></i></div>
-          <h3>Authentication System</h3>
-          <p>Built with Node.js, Express.js, JWT, bcrypt and Two-Factor Authentication (2FA). It covers registration, email verification, login, and 2FA for added security.</p>
-          <div class="tags small">
-            <span><i class="devicon-nodejs-plain colored"></i> Node.js</span>
-            <span><i class="fa-solid fa-key"></i> JWT</span>
-            <span><i class="fa-solid fa-lock"></i> bcrypt</span>
-            <span><i class="fa-solid fa-mobile-screen-button"></i> 2FA</span>
+
+
+
+        <!-- ====================================
+             AUTHENTICATION SYSTEM
+        ===================================== -->
+
+        <article
+          class="project"
+          data-reveal
+        >
+
+
+          <!-- Gallery -->
+
+          <div
+            class="project-gallery"
+            tabindex="0"
+            aria-label="Authentication System project gallery"
+          >
+
+
+            <img
+              class="gallery-image active"
+              src="images/authentication-1.png"
+              alt="Authentication login page"
+            />
+
+
+            <img
+              class="gallery-image"
+              src="images/authentication-2.png"
+              alt="Authentication registration page"
+            />
+
+
+            <img
+              class="gallery-image"
+              src="images/authentication-3.png"
+              alt="Authentication verification page"
+            />
+
+
+            <button
+              class="gallery-button gallery-prev"
+              type="button"
+              aria-label="Previous image"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+
+            <button
+              class="gallery-button gallery-next"
+              type="button"
+              aria-label="Next image"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+
+            <div class="gallery-dots"></div>
+
           </div>
-          <a class="link" href="https://github.com/ibrahemmdev" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> See on GitHub</a>
-        </article>
- 
-        <article class="project" data-reveal>
-          <div class="card-icon"><i class="fa-solid fa-list-check"></i></div>
-          <h3>To-Do List API</h3>
-          <p>Built with Node.js and Express.js. It offers user authentication (login and registration) and full CRUD operations for managing tasks.</p>
-          <div class="tags small">
-            <span><i class="devicon-nodejs-plain colored"></i> Node.js</span>
-            <span><i class="fa-solid fa-plug"></i> REST API</span>
-            <span><i class="fa-solid fa-user-lock"></i> Auth</span>
-            <span><i class="fa-solid fa-pen-to-square"></i> CRUD</span>
+
+
+
+          <!-- Project Icon -->
+
+          <div class="card-icon">
+
+            <i class="fa-solid fa-shield-halved"></i>
+
           </div>
-          <a class="link" href="https://github.com/ibrahemmdev" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> See on GitHub</a>
+
+
+
+          <h3>
+            Authentication System
+          </h3>
+
+
+          <p>
+            Built with Node.js, Express.js, JWT, bcrypt and
+            Two-Factor Authentication (2FA). It covers
+            registration, email verification, login, and 2FA
+            for added security.
+          </p>
+
+
+
+          <!-- Tags -->
+
+          <div class="tags small">
+
+            <span>
+              <i class="devicon-nodejs-plain colored"></i>
+              Node.js
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-key"></i>
+              JWT
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-lock"></i>
+              bcrypt
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              2FA
+            </span>
+
+          </div>
+
+
+
+          <!-- GitHub -->
+
+          <a
+            class="link"
+            href="https://github.com/ibrahemmdev"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <i class="fa-brands fa-github"></i>
+
+            See on GitHub
+
+          </a>
+
         </article>
+
+
+
+        <!-- ====================================
+             TODO LIST API
+        ===================================== -->
+
+        <article
+          class="project"
+          data-reveal
+        >
+
+
+          <!-- Gallery -->
+
+          <div
+            class="project-gallery"
+            tabindex="0"
+            aria-label="To-Do List API project gallery"
+          >
+
+
+            <img
+              class="gallery-image active"
+              src="images/todo-1.png"
+              alt="To-Do List API"
+            />
+
+
+            <img
+              class="gallery-image"
+              src="images/todo-2.png"
+              alt="To-Do List API authentication"
+            />
+
+
+            <img
+              class="gallery-image"
+              src="images/todo-3.png"
+              alt="To-Do List API CRUD operations"
+            />
+
+
+            <button
+              class="gallery-button gallery-prev"
+              type="button"
+              aria-label="Previous image"
+            >
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+
+            <button
+              class="gallery-button gallery-next"
+              type="button"
+              aria-label="Next image"
+            >
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+
+            <div class="gallery-dots"></div>
+
+          </div>
+
+
+
+          <!-- Project Icon -->
+
+          <div class="card-icon">
+
+            <i class="fa-solid fa-list-check"></i>
+
+          </div>
+
+
+
+          <h3>
+            To-Do List API
+          </h3>
+
+
+          <p>
+            Built with Node.js and Express.js. It offers user
+            authentication (login and registration) and full
+            CRUD operations for managing tasks.
+          </p>
+
+
+
+          <!-- Tags -->
+
+          <div class="tags small">
+
+            <span>
+              <i class="devicon-nodejs-plain colored"></i>
+              Node.js
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-plug"></i>
+              REST API
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-user-lock"></i>
+              Auth
+            </span>
+
+
+            <span>
+              <i class="fa-solid fa-pen-to-square"></i>
+              CRUD
+            </span>
+
+          </div>
+
+
+
+          <!-- GitHub -->
+
+          <a
+            class="link"
+            href="https://github.com/ibrahemmdev"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <i class="fa-brands fa-github"></i>
+
+            See on GitHub
+
+          </a>
+
+        </article>
+
       </div>
+
     </section>
- 
-    <!-- CONTACT -->
-    <section class="section" id="contact">
-      <div class="contact" data-reveal>
-        <h2 class="title">Let's work together</h2>
-        <p class="lead">Have a project or an opportunity? Send me a message and I'll get back to you.</p>
+
+
+
+    <!-- ========================================
+         CONTACT
+    ========================================= -->
+
+    <section
+      class="section"
+      id="contact"
+    >
+
+      <div
+        class="contact"
+        data-reveal
+      >
+
+        <h2 class="title">
+          Let's work together
+        </h2>
+
+
+        <p class="lead">
+          Have a project or an opportunity?
+          Send me a message and I'll get back to you.
+        </p>
+
+
         <div class="contact-links">
-          <a href="mailto:ibrahem.m.dev@gmail.com"><i class="fa-solid fa-envelope"></i> ibrahem.m.dev@gmail.com</a>
-          <a href="tel:+201099429679"><i class="fa-solid fa-phone"></i> 01099429679</a>
-          <a href="https://github.com/ibrahemmdev" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> github.com/ibrahemmdev</a>
+
+
+          <a
+            href="mailto:ibrahem.m.dev@gmail.com"
+          >
+
+            <i class="fa-solid fa-envelope"></i>
+
+            ibrahem.m.dev@gmail.com
+
+          </a>
+
+
+          <a
+            href="tel:+201099429679"
+          >
+
+            <i class="fa-solid fa-phone"></i>
+
+            01099429679
+
+          </a>
+
+
+          <a
+            href="https://github.com/ibrahemmdev"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <i class="fa-brands fa-github"></i>
+
+            github.com/ibrahemmdev
+
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
- 
+
+
+
+  <!-- ========================================
+       FOOTER
+  ========================================= -->
+
   <footer class="footer">
-    <p>&copy; <span id="year"></span> Ibrahim Mohamed. All rights reserved.</p>
+
+    <p>
+      &copy;
+      <span id="year"></span>
+      Ibrahim Mohamed.
+      All rights reserved.
+    </p>
+
   </footer>
- 
-  <script src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js"></script>
+
+
+
+  <!-- ========================================
+       SCRIPTS
+  ========================================= -->
+
+  <!-- Motion -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js"
+  ></script>
+
+
+  <!-- Main JavaScript -->
   <script src="script.js"></script>
+
 </body>
+
 </html>
- 
